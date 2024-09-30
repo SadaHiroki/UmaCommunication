@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宇宙人翻訳ゲーム</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-box">
+
+        <div class="uma-left">
+
+            <div class="uma-left-contents">
+                <!-- 宇宙人画像 -->
+                <img id="imageUma" src="./images/character/uma.png">
+
+                <!-- 表情 -->
+                <span id="emotion"></span>
+            </div>
+
+        </div>
+
+        <div class="uma-right">
+
+            <div class="uma-right-text">
+                <!-- 宇宙人が言ってる言葉 -->
+                <p id="umaText"></p>
+            </div>
+
+            <div class="uma-right-answer">
+                <p>翻訳してみよう</p>
+                <!-- テキストボックス -->
+                <input type="text" id="answerText">
+
+                <!-- 回答ボタン -->
+                <button id="answerButton">回答</button>
+            </div>
+
+            <div class="result">
+                <!-- 翻訳結果 -->
+                <p id="resultText"></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="./javascript/main.js" defer></script>
+</body>
+
+</html>
